@@ -2,9 +2,13 @@
 
 - Used the create-create-app to bootstap the app
 - Added the tailwind
-- Built header with netflix logo and bagimage
+- Built header with netflix logo and background image
+- Header
+- Routing of the app
 - Login Form
 - Sign up Form
+- Form Validation
+- useRef
 
 # Features
 
@@ -17,7 +21,7 @@
   - Title & Description
   - Movie suggestions
     - Vertically scrollable
-    - Multople
+    - Multiple set of lists
 - Netflix GPT
   - Search bar
   - Suggestion

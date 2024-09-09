@@ -33,8 +33,15 @@ const Body = () => {
         // https://firebase.google.com/docs/reference/js/auth.user
 
         // When the user SignIn, this would get executed.
-        const { uid, email, displayName } = user;
-        dispatch(addUser({ uid: uid, email: email, displayName: displayName }));
+        const { uid, email, displayName, photoURL } = user;
+        dispatch(
+          addUser({
+            uid: uid,
+            email: email,
+            displayName: displayName,
+            photoURL: photoURL,
+          })
+        );
         // If signed in, then let them go through browse
         // Met with an issue
         // 1st solution use window.location.href

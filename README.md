@@ -17,6 +17,8 @@
 - Created Redux Store with userSlice
 - Implemented SignOut
 - Update Profile
+- BugFix : Sign up user displayName and profile picture update
+- Unsubscribed to the onAuthStateChange
 - Build using the TMDB
 
 # Features

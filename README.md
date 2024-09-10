@@ -15,6 +15,9 @@
 - Implement Sign-In
 - Created the Redux store with userSlice
 - Created Redux Store with userSlice
+- Implemented SignOut
+- Update Profile
+- Build using the TMDB
 
 # Features
 

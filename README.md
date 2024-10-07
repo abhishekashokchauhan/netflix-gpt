@@ -24,6 +24,10 @@
 - Store them in the redux store
 - Pick the first and get the trailer of the same by calling an API, filer it and get the YouTube video id.
 - Play the movie in the background with mute=1 and autoplay=1 parameter that we found
+- Made the secondary panel
+- Added the top rated, popular, upcoming in the redux store.
+- Made one reusable component MovieList and passed all the arguments
+- Made the Movie Card that shows the image of the CDN url of the TMDB
 
 # Features
 

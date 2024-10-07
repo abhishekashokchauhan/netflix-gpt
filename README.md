@@ -20,6 +20,10 @@
 - BugFix : Sign up user displayName and profile picture update
 - Unsubscribed to the onAuthStateChange
 - Build using the TMDB
+- Get the Data from the TMDB for the nowPlaying movies
+- Store them in the redux store
+- Pick the first and get the trailer of the same by calling an API, filer it and get the YouTube video id.
+- Play the movie in the background with mute=1 and autoplay=1 parameter that we found
 
 # Features
 

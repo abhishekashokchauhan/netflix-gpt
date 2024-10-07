@@ -59,7 +59,7 @@ const Header = () => {
   };
 
   return (
-    <div className="absolute w-screen px-8 py-2 bg-gradient-to-b from-black z-10 flex justify-between">
+    <div className="items-center absolute w-screen px-8 py-2 bg-gradient-to-b from-black z-10 flex justify-between">
       <img className="w-44" alt="Logo alternative to Netflix" src={LOGO} />
       {user && (
         <div className="flex">
@@ -68,7 +68,6 @@ const Header = () => {
             className="w-10 h-10 m-2 p-1"
             src={user.photoURL}
           />
-          <div className="font-bold text-white p-2">{user.displayName}</div>
           <button onClick={handleSignOut} className="font-bold text-white p-1">
             (Sign Out)
           </button>
